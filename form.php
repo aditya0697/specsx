@@ -65,13 +65,24 @@ background-repeat: no-repeat;
 <source src=<?php echo $url; ?> type="video/mp4">
 </video>   
         <?php
-        $m = new MongoClient();
-   
-	
-   // select a database
-   $db = $m->test;
-   
-   $collection = $db->game_requirements;
+          try
+{
+
+        $user = 'aditya';
+   $pass = 'aditya123';
+   $app = 'specsx';
+   $col = 'game_requirements';
+
+   $connection = new Mongo('mongodb://'.$user.':'.$pass.'@ds161400.mlab.com:61400/specsx');
+
+   $database   = $connection->selectDB($app);
+   $collection = $database->selectCollection($col);
+
+}
+catch(MongoConnectionException $e)
+{
+    die("Failed to connect to database ".$e->getMessage());
+}
    $processor =  array(
        1 => "Intel Pentium Dual-Core",
        2 => "Intel Pentium",
