@@ -59,7 +59,7 @@ background-repeat: no-repeat;
     <body>
         
         <div id="backgroundImage">
-            <video poster=<?php echo $url1; ?> id="bgvid" playsinline autoplay loop>
+            <video  id="bgvid" playsinline autoplay loop>
   <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
 
 <source src="https://drive.google.com/open?id=0BwkDBpNae2w9QlI0Mm5pVmNuWEU.mp4">
