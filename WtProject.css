@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Cabin|Catamaran|Orbitron');s
+.navbar {
+
+    z-index: 1;
+padding: 0px;
+margin-bottom: 0px;
+}
+#backgroundImage{
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  background-attachment: scroll;
+  background-size: 100%;
+  background-color: transparent;
+
+  opacity: 0.8;
+  z-index: -1;
+  filter:alpha(opacity=40);
+}
+
+table tr{
+    padding-bottom: 10px;
+}
+table td{
+    
+     
+}
+select{
+    margin-bottom: 15px;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+}
+.main{
+            height:750px;
+            margin-top: -50px;
+            width:100%;
+            margin:auto;
+            opacity:1;
+            filter:alpha(opacity=40);
+            background-color:transparent;
+            z-index:1;
+        }
+.tableForm{
+  justify-content: center;
+    border-radius: 10px;
+   width: 350px;
+   height: auto;
+   top: 50%;
+  left: 50%;
+  margin-left: 450px;
+  margin-top: 100px;
+   color: white;
+   opacity: 0.9;
+   z-index: 2;
+   
+   justify-content: center;
+   background-color: rgb(61,61,61);
+}
+.tableForm table{
+  color:black;
+  text-decoration-color: black;
+  border-color: transparent;
+  opacity: 5;
+  filter:alpha(opacity=40);
+  z-index: 3;
+  position: relative;;
+  table-layout: auto;
+}
+.table.table-condensed tr th {
+   border-bottom: 2px solid #f00; /* Change the color you want to set */
+}
+
+.tableBack{
+    border-radius: 10px;
+   width: 350px;
+   height: auto;
+   top: 50%;
+  left: 30%;
+  padding: 30px;
+  color: white;
+  z-index: 3;
+  opacity: 1;
+  
+  box-shadow: 0 0 10px 10px rgb(49,229,139);
+}
+.oddrow {
+
+   color: rgb(255,209,21);
+  opacity: 2;
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 10px;
+  }
+.evenrow {
+  background-color: transparent;
+  font-family: 'Cabin', sans-serif;
+ 
+  color: rgb(49,229,139);
+}
+
+
+
+.FtableForm{
+  justify-content: center;
+    border-radius: 10px;
+   width: 350px;
+   height: auto;
+   top: 50%;
+  left: 50%;
+  margin-left: 470px;
+  margin-top: 50px;
+   color: white;
+   opacity: 0.9;
+   z-index: 2;
+   
+   justify-content: center;
+   background-color: rgb(61,61,61);
+}
+
+
+
+.FtableBack{
+
+    border-radius: 10px;
+   width: 350px;
+   height: auto;
+   top: 50%;
+  left: 30%;
+  padding: 30px;
+  color: white;
+  z-index: 3;
+  opacity: 1;
+    box-shadow: 0 0 10px 10px rgb(49,229,139);
+
+}
+div.input.btn btn-primary{
+    
+    background-color: blue;
+    filter: opacity(100);
+}
+.sono{
+    padding-left: 550px;
+    padding-top: 20px;
+}
+.msg{
+    justify-content: center;
+    align-self: center;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#brandlogo:hover{
+    
+}
+.navbar-brand:hover{
+    
+    transform: scale(1.2,1.2);
+    
+   
+}
+.navbar-brand:hover::after{
+  
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 8, 2017, 4:34:02 AM
+    Author     : Aditya
+*/
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
